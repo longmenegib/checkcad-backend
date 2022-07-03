@@ -76,9 +76,9 @@ app.post('/checkcardblanced', (req, res)=>{
     })
 })
 
+var port = process.env.PORT || 5000
 
-
-app.listen(5000, ()=>{
+app.listen(port, ()=>{
     console.log("listenning to port 5000")
 });
 
