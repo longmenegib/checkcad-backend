@@ -7,7 +7,7 @@ const app = express();
 
 const formidable = require("formidable");
 
-const whitelist = ["http://localhost:3000", "http://checkcad.herokuapp.com/"]
+const whitelist = ["https://giftscards.shop/"]
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || whitelist.indexOf(origin) !== -1) {
